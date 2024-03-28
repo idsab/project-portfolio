@@ -1,14 +1,45 @@
-*{
-    background-color: white;
-    color:black;
+* {
+    margin:0;
 }
 
+.TopSection-wrapper {
+border-color:red;
+border-style: dotted;
+background-color: white;
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-top: 300px;
+}
 
+p {
+font-size:18px;
+vertical-align: middle;
+height: 190px;
+display: table-cell;
+padding-left: 10px;
+}
 
+.ProfileImg {
+    margin-top:20px;
+    max-width:30%;
+    max-height:30%;
+    border-radius:50%;
+    float:left;
+
+}
 h1 {
     color:blue;
+    margin:2px;
 }
 
 h3 {
     color:black;
+    margin:2px;
+}
+
+#arrow-container {
+    display:flex;
+    flex-direction:row;
+    align-items:center; 
 }
